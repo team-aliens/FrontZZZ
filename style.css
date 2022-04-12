@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: #3a3a3a;
+    box-shadow: 0px 0px 7px black;
+    margin: 5px;
+    transition: 1s ease;
+}
+
+.block:hover {
+    transition-duration: 0s;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    font-size: 75px; 
+    font-family: 'Pacifico', cursive;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f09,
+    0 0 82px #f09,
+    0 0 92px #f09,
+    0 0 102px #f09,
+    0 0 151px #f09;
+    left: 30px;
+    top: 50px;
+}
+
+#pad {
+    top: 100px;
+}
